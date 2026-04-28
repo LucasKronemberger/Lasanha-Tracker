@@ -62,6 +62,6 @@ Acesse http://localhost:5173 no seu navegador.
 Lasanheiro que é lasanheiro ajuda o outro! Sinta-se à vontade para:
 1. Abrir Issues para reportar bugs ou sugerir novos modelos de busca.
 2. Enviar Pull Requests com melhorias no algoritmo de ROI ou novos seletores de CSS para o scraper.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Desenvolvido por Lucas Kronemberger 🛠️🚗
 
