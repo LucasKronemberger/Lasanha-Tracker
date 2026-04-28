@@ -1,0 +1,178 @@
+/* Estilos Globais */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F2E8CF; /* Bege Envelhecido - Fundo raiz */
+  color: #5C4033; /* Marrom - Melhor leitura, substitui o branco/preto */
+}
+
+/* Ajuste da Logo (A imagem que você adicionou) */
+header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px; /* Tamanho ideal para a logo */
+  filter: drop-shadow(0 4px 6px rgba(92, 64, 51, 0.2)); /* Sombra marrom combinando com o tema */
+  transition: transform 0.3s;
+}
+
+header img:hover {
+  transform: scale(1.05); /* Efeito legal quando passa o mouse na logo */
+}
+
+/* Container dos Cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Estilo do Card (A Lasanha em si) */
+.car-card {
+  background: #FAFAEE; /* Um bege bem clarinho para destacar do fundo */
+  border: 1px solid #D4A017; /* Borda sutil mostarda */
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(92, 64, 51, 0.15); /* Sombra marrom suave */
+  width: 300px;
+  overflow: hidden;
+  position: relative; /* Necessário para o botão de favorito ficar no lugar certo */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(92, 64, 51, 0.25);
+}
+
+.car-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 3px solid #8B2E2E; /* Linha de detalhe vermelha */
+}
+
+.car-info {
+  padding: 15px;
+}
+
+.car-title {
+  color: #8B2E2E; /* Vermelho Queimado - Destaque pro nome da máquina */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.car-price {
+  color: #5C4033; /* Marrom - Preço claro e direto */
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+/* Badge (Ex: "Joia Rara", "Tem Documento") */
+.roi-badge {
+  display: inline-block;
+  background-color: #8B2E2E; /* Fundo Vermelho Queimado */
+  color: #F2E8CF; /* Texto Bege */
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Botão principal do Card */
+.btn-view {
+  display: block;
+  text-align: center;
+  background: #D4A017; /* Amarelo Mostarda - Grita "Oportunidade!" */
+  color: #5C4033; /* Texto Marrom */
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.btn-view:hover {
+  background: #c29215;
+  border: 2px solid #5C4033; /* Ganha um contorno marrom no hover */
+}
+
+/* Controles de Busca e Filtro */
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #5C4033; /* Borda marrom forte */
+  background: #FAFAEE;
+  color: #5C4033;
+  font-size: 1rem;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #8B2E2E; /* Fica vermelho quando clica pra digitar */
+}
+
+/* Botões de Filtro */
+.btn-filter {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #5C4033;
+  background: transparent;
+  color: #5C4033;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-filter:hover {
+  background: #E8DAB7; /* Um bege um pouco mais escuro */
+}
+
+.btn-filter.active {
+  background: #8B2E2E; /* Vermelho Queimado para o filtro selecionado */
+  color: #F2E8CF;
+  border-color: #8B2E2E;
+}
+
+/* Botão de Favoritar (Coraçãozinho/Estrela) */
+.btn-favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(242, 232, 207, 0.9); /* Fundo bege translúcido */
+  color: #8B2E2E; /* Ícone vermelho */
+  border: 1px solid #8B2E2E;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.btn-favorite:hover {
+  transform: scale(1.1);
+  background: #8B2E2E;
+  color: #F2E8CF;
+}
