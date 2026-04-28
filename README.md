@@ -7,7 +7,7 @@ O projeto foi construído utilizando uma stack moderna focada em performance e a
 - Web Scraping: Puppeteer (com stealth-plugin para evitar bloqueios)
 - Banco de Dados & Backend: Supabase (PostgreSQL + Real-time)
 - Linguagem: JavaScript (ES6+)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## ✨ Funcionalidades
 - Scraping Automatizado: Busca automática por modelos específicos (Santana, Monza, Kadett, Opala, Voyage).
 - Cálculo de ROI: O bot estima a lucratividade básica baseada em preço de compra, custo médio de restauro e valor de revenda de mercado.
@@ -17,7 +17,7 @@ O projeto foi construído utilizando uma stack moderna focada em performance e a
  - Sistema de Favoritos persistente no banco de dados.
  - Badges indicativos de "Oportunidade" (ROI > 15%).
  - Link direto para o anúncio original.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 🚀 Como Rodar Localmente
 Siga os passos abaixo para colocar o caçador de lasanhas para funcionar na sua máquina.
 
@@ -51,17 +51,17 @@ Nota: O bot está configurado com headless: false, então você verá uma instâ
 Para abrir a interface web e visualizar as oportunidades:
 - npm run dev
 Acesse http://localhost:5173 no seu navegador.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📂 Estrutura do Projeto
 - /src: Contém os componentes React e a lógica da interface.
 - bot.js: O "cérebro" do projeto. Script de automação que extrai os dados.
 - supabaseClient.js: Configuração da conexão com o banco de dados.
 - public/img: Assets visuais e logo do projeto.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🤝 Contribuições
 Lasanheiro que é lasanheiro ajuda o outro! Sinta-se à vontade para:
 1. Abrir Issues para reportar bugs ou sugerir novos modelos de busca.
 2. Enviar Pull Requests com melhorias no algoritmo de ROI ou novos seletores de CSS para o scraper.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Desenvolvido por Lucas Kronemberger 🛠️🚗
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
