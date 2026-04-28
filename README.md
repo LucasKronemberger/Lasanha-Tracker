@@ -1,5 +1,5 @@
 ## 🚗 Lasanha Tracker
-O Lasanha Tracker é uma ferramenta de curadoria inteligente para entusiastas de carros antigos (as famosas "lasanhas"). O projeto consiste em um web scraper que monitora anúncios da OLX em busca de oportunidades específicas, calcula o ROI (Retorno sobre Investimento) estimado para restauro e exibe tudo em uma interface moderna e fácil de usar.
+ O Lasanha Tracker é uma ferramenta de curadoria inteligente para entusiastas de carros antigos (as famosas "lasanhas"). O projeto consiste em um web scraper que monitora anúncios da OLX em busca de oportunidades específicas, calcula o ROI (Retorno sobre Investimento) estimado para restauro e exibe tudo em uma interface moderna e fácil de usar.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🛠️ Tecnologias Utilizadas
 O projeto foi construído utilizando uma stack moderna focada em performance e agilidade:
